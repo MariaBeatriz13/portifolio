@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://cdn.astrocentro.com.br/blog/wp-content/uploads/2021/08/28194150/eclipse-lunar-2022.jpg");
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+.menu h1{
+    color:rgb(255, 255, 255)
+}
+.menu{
+    background-color: rgb(32, 65, 92);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border:solid
+}
+.Total{
+    display:flex;
+    gap:10px;
+    margin:50px;
+    border:solid
+}
+.game h2{
+    margin-left: 20px;
+    color:rgb(0,0,0);
+    opacity: 0;
+position: absolute;
+border:solid
+}
+.game:hover h2{
+    opacity: 1;
+    }
+.game{
+    background-color: rgb(255, 140, 64);
+    border-radius: 20px;
+    position: relative;
+}
+.game:hover img{
+opacity: 0.36;
+}
+.caixona{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+  justify-content: space-around;
+  margin-top: 10px;
+  border:solid
+}
